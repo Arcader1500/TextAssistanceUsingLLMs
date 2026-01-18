@@ -13,3 +13,4 @@ torch
 sentence-transformers
 bitsandbytes
 chromadb
+pymupdf4llm
