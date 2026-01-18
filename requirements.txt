@@ -15,3 +15,6 @@ bitsandbytes
 chromadb
 pymupdf4llm
 openai
+pdf2image
+pytesseract
+pdfplumber
