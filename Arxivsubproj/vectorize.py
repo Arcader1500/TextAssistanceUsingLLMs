@@ -6,7 +6,7 @@ from chromadb.utils import embedding_functions
 
 # 1. SETUP PERSISTENT STORAGE
 # This folder will be created on your disk and house your data
-DB_PATH = "../arxiv"
+DB_PATH = "./arxiv"
 client = chromadb.PersistentClient(path=DB_PATH)
 
 # Use a standard embedding model (runs locally on CPU/GPU)
