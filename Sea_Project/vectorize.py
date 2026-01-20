@@ -78,7 +78,7 @@ def _extract_pdf_content(pdf_path: str) -> List[Dict]:
 
 
 # --- Sub-function 3: Cleaner and Splitter ---
-def _clean_and_split(raw_docs: List[Dict], chunk_size: int = 1000, chunk_overlap: int = 200) -> Tuple[
+def _clean_and_split(raw_docs: List[Dict], chunk_size: int = 2000, chunk_overlap: int = 400) -> Tuple[
     List[str], List[Dict]]:
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size, chunk_overlap=chunk_overlap, separators=["\n\n", "\n", " ", ""]

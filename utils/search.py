@@ -55,6 +55,7 @@ class HybridSearch:
                  cross_encoder_model: str = 'cross-encoder/ms-marco-MiniLM-L-6-v2'):
         self.collection = vector_collection
         self.bm25 = bm25_retriever
+        self.bm25.k = 20
         self.encoder = CrossEncoder(cross_encoder_model)
 
     def _reciprocal_rank_fusion(self, vector_hits: List[SearchResultItem], bm25_hits: List[SearchResultItem],

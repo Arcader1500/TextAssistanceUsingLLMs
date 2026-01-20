@@ -21,6 +21,11 @@ A learning sandbox containing Jupyter notebooks that step through the fundamenta
 - Simple RAG implementations
 - Fine-tuning (LoRA) experiments
 
+### 4. [utils](./utils)
+Shared utility library used across projects.
+- **llmclass.py:** Wrapper for OpenAI-compatible LLM API interactions.
+- **search.py:** Implements advanced search logic, including Hybrid Search (Vector + BM25) and Cross-Encoder Re-ranking.
+
 ## Getting Started
 
 ### Prerequisites
