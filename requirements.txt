@@ -18,3 +18,5 @@ openai
 pdf2image
 pytesseract
 pdfplumber
+rank-bm25
+langchain-core
