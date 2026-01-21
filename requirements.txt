@@ -22,3 +22,6 @@ pdfplumber
 rank-bm25
 langchain-core
 streamlit
+ragas
+langchain-google-genai
+rapidfuzz

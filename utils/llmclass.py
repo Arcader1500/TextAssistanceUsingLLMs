@@ -5,7 +5,7 @@ from typing import List, Dict
 
 load_dotenv()
 
-class RAGGenerator:
+class LLM:
     def __init__(self, api_key: str = None, base_url: str = None, model_name: str = "gpt-5-nano:free"):
         """
         Initialize the OpenAI-compatible client.
